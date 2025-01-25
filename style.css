@@ -1,0 +1,55 @@
+body{
+
+  /* background-image:linear-gradient( to top, rgb(75, 238, 247),rgb(114, 25, 203),yellow,purple); */ */
+      font-family:Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    padding: 0 20px;
+    
+}
+.main-container{
+    text-align: center;
+    background: rgb(18, 1, 50);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(7, 209, 74, 0.2);
+    width: 90%; 
+    max-width: 400px;
+}
+h1{
+    color: antiquewhite;
+}
+
+
+button{
+    padding: 5px;
+}
+button:hover{
+             transform: scale(2);
+             background-color: brown;
+             color: whitesmoke;
+             border-radius: 10px;
+
+}
+h1:hover{
+    color:navajowhite;
+    cursor: pointer;
+    
+}
+.main-container:hover{
+    background-color: rgb(14, 12, 16);
+}
+@media (min-width: 600px) {
+    button {
+        width: auto;
+       
+    }
+    main-container{
+        width: auto;
+       
+
+    }
+}
